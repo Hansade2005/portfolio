@@ -91,22 +91,6 @@ I am eager to discuss your project and explore how my skills and experience can 
 
 ---
 
-## Portfolio Website Blocks 🧱
-
-This portfolio website is thoughtfully structured into 5 key blocks to provide a comprehensive and engaging overview of my expertise and services:
-
-1.  **Hero Section with Call-to-Action:**  The first impression matters. This section is designed to immediately capture visitor attention with a compelling headline, a brief introduction, and a clear call to action, encouraging visitors to explore further.
-2.  **Features Section with Technical Skillset:**  Showcase your expertise. This section highlights my core technical competencies, programming languages, frameworks, and tools I master, providing a detailed overview of my technical capabilities.
-3.  **Portfolio/Blog Block Showcasing Latest Projects:**  Actions speak louder than words. This block provides tangible examples of my work and experience through real-world projects, demonstrating my ability to deliver successful solutions and solve complex problems.
-4.  **Contact Block with Contact/Socials/Map:**  Make it easy to connect. This section offers multiple channels for visitors to easily get in touch, including email, phone, social media links, and a map (if applicable), ensuring seamless communication.
-5.  **FAQ Block for Common Client Questions:**  Address potential queries proactively. This section anticipates and answers common questions potential clients might have, providing essential information and building trust and transparency.
-
----
-
-## Image Style 🎨
-
-**AI-Generated, Professional & Modern** -  The images used in this portfolio are AI-generated, ensuring a professional and modern aesthetic that aligns with current design trends. This approach allows for visually appealing graphics that enhance the overall presentation of the portfolio.
-
 ---
 
 ## Testimonials ⭐️
