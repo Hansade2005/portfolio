@@ -101,6 +101,7 @@ I am eager to discuss your project and explore how my skills and experience can 
 
 > *"Hans is a top-notch developer. He delivered our mobile application ahead of schedule and exceeded our expectations. His communication throughout the project was excellent, making the entire process smooth and efficient."* - **Mme. Kalla, Founder of Douala Dynamics Co.**
 
-*[These testimonials are designed to reflect positive client experiences and are set in a Cameroonian context with Cameroonian names and company examples. You can further customize these with more specific details if needed.]*
+*[I am therefore passionate about expanding my customer base ⚡![night-logo](https://github.com/user-attachments/assets/eca84d0d-d1d0-49f3-8efc-386715bb5dd7)
+😁⚡.]*
 
 ---
