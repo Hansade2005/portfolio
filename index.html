@@ -3,55 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hans Portfolio</title>
+    <title>Hans Ade — Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="hero">
-        <h1>Hans Ade</h1>
-        <p>Software Engineer</p>
-        <p>"I build powerful, scalable digital solutions across platforms—combining clean code, user-centric design, and modern tech stacks to transform ideas into high-impact applications."</p>
-        <a href="#contact">Contact Me</a>
-    </header>
 
-    <section id="features">
-        <h2>Skills</h2>
-        <ul>
-            <li>Web Development</li>
-            <li>Cross-platform Development</li>
-            <li>Modern Languages and Frameworks</li>
-            </ul>
-    </section>
+    <nav>
+        <a href="#" class="nav-logo">hans_ade()</a>
+        <div class="nav-links">
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#testimonials">Testimonials</a>
+        </div>
+        <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
 
-    <section id="portfolio">
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="https://dottsa.com">dottsa.com</a></li>
-            <li><a href="https://fcdacameroon.org">fcdacameroon.org</a></li>
-            <li><a href="https://carpoolconnect.site">carpoolconnect.site</a></li>
-            <li><a href="https://swisslinkedu.com">swisslinkedu.com</a></li>
-            <li><a href="https://humanityatheartintl.org">humanityatheartintl.org</a></li>
-            <li><a href="https://camtravinternational.cm">camtravinternational.cm</a></li>
-        </ul>
-    </section>
+    <main>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:hanscadx8@gmail.com">hanscadx8@gmail.com</a></p>
-        <p>Phone: <a href="tel:+237679719353">+237679719353</a></p>
-        <p>Location: Cameroon</p>
-        <p>Facebook: <a href="https://facebook.com/anyehappiness">https://facebook.com/anyehappiness</a></p>
-        <p>X (Twitter): <a href="https://x.com/HansCadx">https://x.com/HansCadx</a></p>
-    </section>
+        <!-- HERO -->
+        <section id="hero">
+            <div class="hero-brace" aria-hidden="true">{ }</div>
+            <span class="hero-eyebrow">// SOFTWARE ENGINEER</span>
+            <h1 class="hero-name">Hans<br>Ade</h1>
+            <p class="hero-tagline">Building digital solutions that scale — from Cameroon to the world. Web. Mobile. Systems.</p>
+            <div class="hero-stats">
+                <div class="hero-stat"><span class="hero-stat-num">5+</span><span class="hero-stat-label">Years building</span></div>
+                <div class="hero-stat"><span class="hero-stat-num">20+</span><span class="hero-stat-label">Projects shipped</span></div>
+                <div class="hero-stat"><span class="hero-stat-num">15+</span><span class="hero-stat-label">Technologies</span></div>
+            </div>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">View projects</a>
+                <a href="#contact" class="btn btn-outline">Get in touch</a>
+            </div>
+        </section>
 
-    <section id="faq">
-        <h2>FAQ</h2>
-        <p>Coming Soon</p>
-    </section>
+        <!-- SKILLS -->
+        <section id="skills">
+            <span class="section-eyebrow">// WHAT I WORK WITH</span>
+            <h2>Stack &amp; skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3><span class="mono">01</span> Languages</h3>
+                    <div class="tech-chips">
+                        <span class="chip">JavaScript</span>
+                        <span class="chip">TypeScript</span>
+                        <span class="chip">Python</span>
+                        <span class="chip">Java</span>
+                        <span class="chip">HTML5</span>
+                        <span class="chip">CSS3</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3><span class="mono">02</span> Frameworks</h3>
+                    <div class="tech-chips">
+                        <span class="chip">React</span>
+                        <span class="chip">Angular</span>
+                        <span class="chip">Vue.js</span>
+                        <span class="chip">Node.js</span>
+                        <span class="chip">Django</span>
+                        <span class="chip">Spring Boot</span>
+                        <span class="chip">React Native</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3><span class="mono">03</span> Data &amp; cloud</h3>
+                    <div class="tech-chips">
+                        <span class="chip">PostgreSQL</span>
+                        <span class="chip">MongoDB</span>
+                        <span class="chip">Firebase</span>
+                        <span class="chip">AWS</span>
+                        <span class="chip">Docker</span>
+                        <span class="chip">Kubernetes</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3><span class="mono">04</span> Practices</h3>
+                    <div class="tech-chips">
+                        <span class="chip">REST APIs</span>
+                        <span class="chip">GraphQL</span>
+                        <span class="chip">Agile</span>
+                        <span class="chip">CI/CD</span>
+                        <span class="chip">Git</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <span class="section-eyebrow">// FEATURED WORK</span>
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <a href="https://dottsa.com" target="_blank" rel="noopener" class="project-card">
+                    <span class="project-name">dottsa.com</span>
+                    <span class="project-desc">Digital marketing &amp; advertising platform for businesses in Cameroon — targeted ads, social management, campaign analytics.</span>
+                </a>
+                <a href="https://fcdacameroon.org" target="_blank" rel="noopener" class="project-card">
+                    <span class="project-name">fcdacameroon.org</span>
+                    <span class="project-desc">Website for FCDA, a community development NGO — donations, impact stories, and initiative tracking.</span>
+                </a>
+                <a href="https://carpoolconnect.site" target="_blank" rel="noopener" class="project-card">
+                    <span class="project-name">carpoolconnect.site</span>
+                    <span class="project-desc">Carpooling platform connecting drivers and passengers across Cameroon — matching, real-time messaging, route optimization.</span>
+                </a>
+                <a href="https://swisslinkedu.com" target="_blank" rel="noopener" class="project-card">
+                    <span class="project-name">swisslinkedu.com</span>
+                    <span class="project-desc">Student portal for Swiss Link Higher Institute — application flow, course catalog, interactive dashboard.</span>
+                </a>
+                <a href="https://humanityatheartintl.org" target="_blank" rel="noopener" class="project-card">
+                    <span class="project-name">humanityatheartintl.org</span>
+                    <span class="project-desc">Non-profit site for humanitarian aid — secure donations, project showcases, accessible content management.</span>
+                </a>
+                <a href="https://camtravinternational.cm" target="_blank" rel="noopener" class="project-card">
+                    <span class="project-name">camtravinternational.cm</span>
+                    <span class="project-desc">Travel &amp; tourism platform for Cameroon — tour booking, travel guides, accommodation listings.</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section id="testimonials">
+            <span class="section-eyebrow">// WHAT CLIENTS SAY</span>
+            <h2>Testimonials</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"Hans was instrumental in developing our e-commerce platform. His technical expertise and problem-solving skills were invaluable. We are extremely satisfied with the results!"</p>
+                    <p class="testimonial-author"><strong>Nji Ayuk</strong> — CEO, BueaTech Inc.</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"We hired Hans to build our company website, and we were blown away by his professionalism and attention to detail. The website is modern, user-friendly, and has significantly improved our online presence."</p>
+                    <p class="testimonial-author"><strong>Dr. Bih Yvonne</strong> — Director, Limbe Global Solutions</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"Hans is a top-notch developer. He delivered our mobile application ahead of schedule and exceeded our expectations. His communication throughout the project was excellent."</p>
+                    <p class="testimonial-author"><strong>Mme. Kalla</strong> — Founder, Douala Dynamics Co.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <span class="section-eyebrow">// LET'S BUILD SOMETHING</span>
+            <h2>Get in touch</h2>
+            <div class="contact-grid">
+                <div class="contact-block">
+                    <h3>Email</h3>
+                    <a href="mailto:hanscadx8@gmail.com">hanscadx8@gmail.com</a>
+                </div>
+                <div class="contact-block">
+                    <h3>Phone</h3>
+                    <a href="tel:+237679719353">+237 679 719 353</a>
+                </div>
+                <div class="contact-block">
+                    <h3>Location</h3>
+                    <p><span class="location-dot"></span>Bamenda, Cameroon</p>
+                </div>
+                <div class="contact-block">
+                    <h3>Social</h3>
+                    <div class="social-links">
+                        <a href="https://facebook.com/anyehappyness" target="_blank" rel="noopener">Facebook</a>
+                        <a href="https://x.com/HansCadx" target="_blank" rel="noopener">X (Twitter)</a>
+                        <a href="https://github.com/Hansade2005" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
 
     <footer>
-        <p>&copy; 2025 Hans Ade Portfolio</p>
+        <p class="mono">&copy; 2025 Hans Ade</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
