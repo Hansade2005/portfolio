@@ -26,7 +26,7 @@ const observer = new IntersectionObserver(
 );
 
 document.querySelectorAll(
-    '.skill-card, .project-card, .testimonial-card, .contact-block'
+    '.skill-card, .project-card, .product-card, .testimonial-card, .contact-block'
 ).forEach(el => {
     el.classList.add('reveal-on-scroll');
     observer.observe(el);
